@@ -1,0 +1,15 @@
+services:
+  tunnel-builder:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: tunnel-builder:latest
+    container_name: tunnel-builder
+    restart: unless-stopped
+    environment:
+      # Internal port the Node server listens on (matches server.js + Dockerfile).
+      PORT: 8080
+    ports:
+      # Host port → container port. Override the host side with:
+      #   PORT=9000 docker compose up
+      - "${PORT:-8080}:8080"

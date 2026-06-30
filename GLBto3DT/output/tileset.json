@@ -1,0 +1,404 @@
+{
+  "asset": {
+    "version": "1.1"
+  },
+  "geometricError": 1000.0,
+  "root": {
+    "transform": [
+      -0.4217480741391745,
+      0.9067130538157578,
+      0,
+      0,
+      -0.7865152334830747,
+      -0.36583931774959644,
+      0.4975493755272678,
+      0,
+      0.45113451370845226,
+      0.2098404909177741,
+      0.8674356569293343,
+      0,
+      2884683.448,
+      1341780.273,
+      5509501.217,
+      1
+    ],
+    "boundingVolume": {
+      "sphere": [
+        2.379322323467033,
+        2.7042837078558093,
+        16.25170853771087,
+        76.43429794748822
+      ]
+    },
+    "geometricError": 500.0,
+    "content": {
+      "uri": "tiles/root.glb"
+    },
+    "refine": "REPLACE",
+    "children": [
+      {
+        "boundingVolume": {
+          "sphere": [
+            4.770131801211994,
+            3.3214552996982554,
+            -14.300620211699473,
+            35.16538999206666
+          ]
+        },
+        "geometricError": 50.0,
+        "content": {
+          "uri": "tiles/mid_1_0.glb"
+        },
+        "refine": "REPLACE",
+        "children": [
+          {
+            "boundingVolume": {
+              "sphere": [
+                4.770131801211994,
+                3.3214552996982554,
+                -14.300620211699473,
+                35.16538999206666
+              ]
+            },
+            "geometricError": 0.0,
+            "content": {
+              "uri": "tiles/leaf_3_1.glb"
+            },
+            "refine": "REPLACE"
+          }
+        ]
+      },
+      {
+        "boundingVolume": {
+          "sphere": [
+            -8.675768004531589,
+            2.4325646572208357,
+            -30.5772241352381,
+            19.630723590760887
+          ]
+        },
+        "geometricError": 50.0,
+        "content": {
+          "uri": "tiles/mid_0_0.glb"
+        },
+        "refine": "REPLACE",
+        "children": [
+          {
+            "boundingVolume": {
+              "sphere": [
+                -8.675768004531589,
+                2.4325646572208357,
+                -30.5772241352381,
+                19.630723590760887
+              ]
+            },
+            "geometricError": 0.0,
+            "content": {
+              "uri": "tiles/leaf_0_0.glb"
+            },
+            "refine": "REPLACE"
+          }
+        ]
+      },
+      {
+        "boundingVolume": {
+          "sphere": [
+            15.810019780360218,
+            3.0001946447658536,
+            -18.84697698968391,
+            113.99975266636905
+          ]
+        },
+        "geometricError": 50.0,
+        "content": {
+          "uri": "tiles/mid_3_0.glb"
+        },
+        "refine": "REPLACE",
+        "children": [
+          {
+            "boundingVolume": {
+              "sphere": [
+                14.121726567034619,
+                3.7937916021490015,
+                -25.044349636236188,
+                66.69736364625689
+              ]
+            },
+            "geometricError": 0.0,
+            "content": {
+              "uri": "tiles/leaf_6_0.glb"
+            },
+            "refine": "REPLACE"
+          },
+          {
+            "boundingVolume": {
+              "sphere": [
+                19.12238543820855,
+                1.4431882627814825,
+                -6.687972759078496,
+                104.17527185789149
+              ]
+            },
+            "geometricError": 0.0,
+            "content": {
+              "uri": "tiles/leaf_7_1.glb"
+            },
+            "refine": "REPLACE"
+          }
+        ]
+      },
+      {
+        "boundingVolume": {
+          "sphere": [
+            0.3213535291507209,
+            2.516178795063015,
+            7.240949675436137,
+            80.70377700396668
+          ]
+        },
+        "geometricError": 50.0,
+        "content": {
+          "uri": "tiles/mid_1_1.glb"
+        },
+        "refine": "REPLACE",
+        "children": [
+          {
+            "boundingVolume": {
+              "sphere": [
+                -0.4658637120949501,
+                5.743491732538287,
+                4.896168277507144,
+                83.31943152668386
+              ]
+            },
+            "geometricError": 0.0,
+            "content": {
+              "uri": "tiles/leaf_2_2.glb"
+            },
+            "refine": "REPLACE"
+          },
+          {
+            "boundingVolume": {
+              "sphere": [
+                1.1116591642993678,
+                -0.7237954677451741,
+                9.5949300697714,
+                61.401793852578734
+              ]
+            },
+            "geometricError": 0.0,
+            "content": {
+              "uri": "tiles/leaf_2_3.glb"
+            },
+            "refine": "REPLACE"
+          }
+        ]
+      },
+      {
+        "boundingVolume": {
+          "sphere": [
+            -6.393410394602613,
+            2.2081274344770887,
+            58.119656477936864,
+            108.52057178827502
+          ]
+        },
+        "geometricError": 50.0,
+        "content": {
+          "uri": "tiles/mid_0_3.glb"
+        },
+        "refine": "REPLACE",
+        "children": [
+          {
+            "boundingVolume": {
+              "sphere": [
+                -8.980751548564141,
+                1.0922568989226682,
+                65.06263700104047,
+                115.87765156460921
+              ]
+            },
+            "geometricError": 0.0,
+            "content": {
+              "uri": "tiles/leaf_0_7.glb"
+            },
+            "refine": "REPLACE"
+          },
+          {
+            "boundingVolume": {
+              "sphere": [
+                -2.1775659015303437,
+                4.026340175806468,
+                46.806681318469536,
+                41.445835057945146
+              ]
+            },
+            "geometricError": 0.0,
+            "content": {
+              "uri": "tiles/leaf_1_6.glb"
+            },
+            "refine": "REPLACE"
+          }
+        ]
+      },
+      {
+        "boundingVolume": {
+          "sphere": [
+            0.7554228089607489,
+            3.617597863945196,
+            60.86016489164328,
+            31.467932147269742
+          ]
+        },
+        "geometricError": 50.0,
+        "content": {
+          "uri": "tiles/mid_1_3.glb"
+        },
+        "refine": "REPLACE",
+        "children": [
+          {
+            "boundingVolume": {
+              "sphere": [
+                -0.401796149434959,
+                3.525692393610353,
+                47.744587979409545,
+                19.22558343990034
+              ]
+            },
+            "geometricError": 0.0,
+            "content": {
+              "uri": "tiles/leaf_2_6.glb"
+            },
+            "refine": "REPLACE"
+          },
+          {
+            "boundingVolume": {
+              "sphere": [
+                -0.900845623010747,
+                1.9526929395005754,
+                70.58975863918253,
+                27.777622372431203
+              ]
+            },
+            "geometricError": 0.0,
+            "content": {
+              "uri": "tiles/leaf_2_7.glb"
+            },
+            "refine": "REPLACE"
+          },
+          {
+            "boundingVolume": {
+              "sphere": [
+                3.5702412502303407,
+                5.375027980936374,
+                64.25167967074131,
+                26.95704116092654
+              ]
+            },
+            "geometricError": 0.0,
+            "content": {
+              "uri": "tiles/leaf_3_7.glb"
+            },
+            "refine": "REPLACE"
+          }
+        ]
+      },
+      {
+        "boundingVolume": {
+          "sphere": [
+            -2.037447640234733,
+            1.9256056875603158,
+            31.419753775480398,
+            30.035279521149132
+          ]
+        },
+        "geometricError": 50.0,
+        "content": {
+          "uri": "tiles/mid_0_2.glb"
+        },
+        "refine": "REPLACE",
+        "children": [
+          {
+            "boundingVolume": {
+              "sphere": [
+                -2.037447640234733,
+                1.9256056875603158,
+                31.419753775480398,
+                30.035279521149132
+              ]
+            },
+            "geometricError": 0.0,
+            "content": {
+              "uri": "tiles/leaf_1_4.glb"
+            },
+            "refine": "REPLACE"
+          }
+        ]
+      },
+      {
+        "boundingVolume": {
+          "sphere": [
+            2.470345712030155,
+            2.255764610667104,
+            21.223767723093474,
+            21.90209852384557
+          ]
+        },
+        "geometricError": 50.0,
+        "content": {
+          "uri": "tiles/mid_1_2.glb"
+        },
+        "refine": "REPLACE",
+        "children": [
+          {
+            "boundingVolume": {
+              "sphere": [
+                2.470345712030155,
+                2.255764610667104,
+                21.223767723093474,
+                21.90209852384557
+              ]
+            },
+            "geometricError": 0.0,
+            "content": {
+              "uri": "tiles/leaf_3_4.glb"
+            },
+            "refine": "REPLACE"
+          }
+        ]
+      },
+      {
+        "boundingVolume": {
+          "sphere": [
+            -2.199527505414877,
+            1.12807854159908,
+            -3.352263018675149,
+            40.4023589370881
+          ]
+        },
+        "geometricError": 50.0,
+        "content": {
+          "uri": "tiles/mid_0_1.glb"
+        },
+        "refine": "REPLACE",
+        "children": [
+          {
+            "boundingVolume": {
+              "sphere": [
+                -2.199527505414877,
+                1.12807854159908,
+                -3.352263018675149,
+                40.4023589370881
+              ]
+            },
+            "geometricError": 0.0,
+            "content": {
+              "uri": "tiles/leaf_1_2.glb"
+            },
+            "refine": "REPLACE"
+          }
+        ]
+      }
+    ]
+  }
+}

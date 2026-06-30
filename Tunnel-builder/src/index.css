@@ -1,0 +1,9 @@
+* { box-sizing: border-box; }
+body { margin: 0; overflow: hidden; background: #1a1a2e; }
+#root { width: 100vw; height: 100vh; }
+:root { font-family: system-ui, sans-serif; color-scheme: dark; }
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
+}
